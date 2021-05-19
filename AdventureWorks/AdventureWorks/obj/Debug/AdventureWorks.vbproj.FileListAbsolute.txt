@@ -27,3 +27,5 @@ C:\Users\jorda\workspace\visbasic\AdventureWorks\AdventureWorks\AdventureWorks\o
 C:\Users\jorda\workspace\visbasic\AdventureWorks\AdventureWorks\AdventureWorks\obj\Debug\AdventureWorks.exe
 C:\Users\jorda\workspace\visbasic\AdventureWorks\AdventureWorks\AdventureWorks\obj\Debug\AdventureWorks.xml
 C:\Users\jorda\workspace\visbasic\AdventureWorks\AdventureWorks\AdventureWorks\obj\Debug\AdventureWorks.pdb
+C:\Users\jorda\workspace\visbasic\AdventureWorks\AdventureWorks\AdventureWorks\obj\Debug\CustomerControl\CustomerDetailControl.g.vb
+C:\Users\jorda\workspace\visbasic\AdventureWorks\AdventureWorks\AdventureWorks\obj\Debug\CustomerControl\CustomerDetailControl.baml

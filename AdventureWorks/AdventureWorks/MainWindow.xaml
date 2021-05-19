@@ -22,7 +22,11 @@
                     <MenuItem Header="Detail"
                               Click="ProductDetail_Click" />
                 </MenuItem>
-            </Menu>
+            <MenuItem Header="Customers">
+                <MenuItem Header="Detail"
+                              Click="CustomerDetail_Click" />
+            </MenuItem>
+        </Menu>
         <Grid Grid.Row="1"
              Name="contentArea"
              Margin="10" />

@@ -54,6 +54,16 @@ AdventureWorks
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="T:AdventureWorks.CustomerDetailControl">
+<summary>
+CustomerDetailControl
+</summary>
+</member>
+<member name="M:AdventureWorks.CustomerDetailControl.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
 <member name="T:AdventureWorks.ProductDetailControl">
 <summary>
 ProductDetailControl

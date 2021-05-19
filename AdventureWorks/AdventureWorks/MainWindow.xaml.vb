@@ -7,4 +7,9 @@
         contentArea.Children.Clear()
         contentArea.Children.Add(New ProductDetailControl())
     End Sub
+
+    Private Sub CustomerDetail_Click(sender As Object, e As RoutedEventArgs)
+        contentArea.Children.Clear()
+        contentArea.Children.Add(New CustomerDetailControl())
+    End Sub
 End Class
