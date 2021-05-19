@@ -68,6 +68,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="ProductControl\ProductDetailControl.xaml.vb">
+      <DependentUpon>ProductDetailControl.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -80,6 +83,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="ProductControl\ProductDetailControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Import Include="System.Threading.Tasks" />
@@ -130,6 +137,20 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AdventureWorks.EntityLayer\AdventureWorks.EntityLayer.vbproj">
+      <Project>{d61f32ef-d8ff-4b25-a6e7-719ece33f5c1}</Project>
+      <Name>AdventureWorks.EntityLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AdventureWorks.ViewModelLayer\AdventureWorks.ViewModelLayer.vbproj">
+      <Project>{16e5e5c4-22a9-46dc-bf48-f8069d76d76d}</Project>
+      <Name>AdventureWorks.ViewModelLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common.Library\Common.Library.vbproj">
+      <Project>{ec0cdfe3-639a-4482-9dce-de3f5b8af1f6}</Project>
+      <Name>Common.Library</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

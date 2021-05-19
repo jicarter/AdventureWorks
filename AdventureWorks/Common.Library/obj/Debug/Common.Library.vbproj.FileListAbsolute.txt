@@ -1,0 +1,10 @@
+C:\Users\jorda\workspace\visbasic\AdventureWorks\AdventureWorks\Common.Library\bin\Debug\Common.Library.dll
+C:\Users\jorda\workspace\visbasic\AdventureWorks\AdventureWorks\Common.Library\bin\Debug\Common.Library.pdb
+C:\Users\jorda\workspace\visbasic\AdventureWorks\AdventureWorks\Common.Library\bin\Debug\Common.Library.xml
+C:\Users\jorda\workspace\visbasic\AdventureWorks\AdventureWorks\Common.Library\obj\Debug\Common.Library.vbprojAssemblyReference.cache
+C:\Users\jorda\workspace\visbasic\AdventureWorks\AdventureWorks\Common.Library\obj\Debug\Common.Library.Resources.resources
+C:\Users\jorda\workspace\visbasic\AdventureWorks\AdventureWorks\Common.Library\obj\Debug\Common.Library.vbproj.GenerateResource.cache
+C:\Users\jorda\workspace\visbasic\AdventureWorks\AdventureWorks\Common.Library\obj\Debug\Common.Library.vbproj.CoreCompileInputs.cache
+C:\Users\jorda\workspace\visbasic\AdventureWorks\AdventureWorks\Common.Library\obj\Debug\Common.Library.dll
+C:\Users\jorda\workspace\visbasic\AdventureWorks\AdventureWorks\Common.Library\obj\Debug\Common.Library.xml
+C:\Users\jorda\workspace\visbasic\AdventureWorks\AdventureWorks\Common.Library\obj\Debug\Common.Library.pdb

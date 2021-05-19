@@ -64,7 +64,8 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.vb" />
+    <Compile Include="CustomerViewModel.vb" />
+    <Compile Include="ProductViewModel.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -99,6 +100,16 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AdventureWorks.EntityLayer\AdventureWorks.EntityLayer.vbproj">
+      <Project>{d61f32ef-d8ff-4b25-a6e7-719ece33f5c1}</Project>
+      <Name>AdventureWorks.EntityLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common.Library\Common.Library.vbproj">
+      <Project>{ec0cdfe3-639a-4482-9dce-de3f5b8af1f6}</Project>
+      <Name>Common.Library</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

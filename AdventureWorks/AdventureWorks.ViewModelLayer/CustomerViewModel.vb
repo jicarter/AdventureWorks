@@ -12,6 +12,8 @@ Public Class CustomerViewModel
 
     Function LoadCustomer(ByVal customerId As Integer) As Customer
 
-        Entity = New Customer() With {.CustomerID = 1, .FirstName}
+        Entity = New Customer() With {.CustomerID = 1, .FirstName = "Jordan", .LastName = "Carter", .CompanyName = "The Company", .CreatedBy = "Me", .IsActive = True}
+
+        Return Entity
     End Function
 End Class
